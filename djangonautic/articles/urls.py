@@ -5,7 +5,7 @@ from . import views
 
 urlpatterns = [
 
-    url('^$', views.article_list), # the articles directory
+    url('^$', views.articles_landing_page), # the articles directory
     url('page2', views.article_page2),#page in that directory
 
 ]
